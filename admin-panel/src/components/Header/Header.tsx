@@ -7,11 +7,11 @@ export default function Header() {
         <input
           type="text"
           placeholder="Search..."
-          className="text-text border-1 border-grey-600 p-2 rounded-sm focus:border-border w-70"
+          className="text-[#ffffff] border-1 border-grey-600 p-2 rounded-sm focus:border-border w-70"
         />
         <nav className="space-x-3 flex items-center sm:space-x-6">
           <div className="relative">
-            <Bell className="w-5 sm:w-6 h-5 sm:h-6 text-grey-300 cursor-pointer hover:text-border" />
+            <Bell className="w-5 sm:w-6 h-5 sm:h-6 text-[#ffffff] cursor-pointer hover:text-border" />
           </div>
           <img
             src="/admin-avatar.jpeg"
